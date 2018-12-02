@@ -3,4 +3,10 @@ Android+opencv+tensorflow，使用Android studio开发app，使用tensorflow训�
 实验效果：
 <img src="https://github.com/xueyigehe/Android-opencv-tensorflow-/blob/master/result_img/Screenshot_20180608-172112.png" width="400"/>
 <img src="https://github.com/xueyigehe/Android-opencv-tensorflow-/blob/master/result_img/Screenshot_20180608-174111.png" width="400"/>
+<img src="https://github.com/xueyigehe/Android-opencv-tensorflow-/blob/master/result_img/Screenshot_20180609-223847.png" width="400"/>
 <img src="https://github.com/xueyigehe/Android-opencv-tensorflow-/blob/master/result_img/Screenshot_20180609-224043.png" width="400"/>
+
+master项目可在Android Studio中打开进行开发，使用的是opencv3.2。若直接使用，首先需要安装opencv manager：
+
+
+由于是使用了opencv中的图像分割，将所有分割物体进行识别，结果都会为数字，即如果将摄像头对着文字，识别结果也会错误的显示为数字。所以此app只适用于手写数字识别。
